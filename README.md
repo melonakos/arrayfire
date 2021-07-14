@@ -1,21 +1,32 @@
 <a href="http://arrayfire.com/"><img src="http://arrayfire.com/logos/arrayfire_logo_whitebkgnd.png" width="300"></a>
 
-ArrayFire is a general-purpose library that simplifies the process of developing
-software that targets parallel and massively-parallel architectures including
-CPUs, GPUs, and other hardware acceleration devices.
+ArrayFire is a general-purpose tensor library that simplifies the process of
+developing software for parallel architectures found in CPUs, GPUs, and 
+other hardware acceleration devices.
 
 Several of ArrayFire's benefits include:
 
+* Hundreds of accelerated [tensor computing functions](https://arrayfire.org/docs/group__arrayfire__func.htm), in the following areas:
+    * Array handling
+    * Computer vision
+    * Image processing
+    * Linear algebra
+    * Machine learning
+    * Standard math
+    * Signal Processing
+    * Statistics
+    * Vector algorithms
 * [Easy to use](http://arrayfire.org/docs/gettingstarted.htm), stable,
   [well-documented](http://arrayfire.org/docs) API
-* Rigorously tested for performance and accuracy
+* Rigorous benchmarks and tests ensuring top performance and numerical accuracy
+* Cross platform compatibility with support for CUDA, OpenCL, and native CPU on Windows, Mac, and Linux
+* Built-in visualization functions through [Forge](https://github.com/arrayfire/forge)
 * Commercially friendly open-source licensing
 * Commercial support from [ArrayFire](http://arrayfire.com)
-* [Read about more benefits on arrayfire.com](http://arrayfire.com/the-arrayfire-library/)
 
 ArrayFire provides software developers with a high-level
-abstraction of data which resides on the accelerator, the `af::array` object.
-Developers write code which performs operations on ArrayFire arrays which, in turn,
+abstraction of data that resides on the accelerator, the `af::array` object.
+Developers write code that performs operations on ArrayFire arrays which, in turn,
 are automatically translated into near-optimal kernels that execute on the computational
 device.
 
@@ -27,7 +38,7 @@ on Windows, Mac, and Linux.
 
 ## Installation
 
-You can install the ArrayFire library from one of the following ways:
+You can install the ArrayFire library in one of the following ways:
 
 ### Package Managers
 
@@ -152,7 +163,7 @@ If you redistribute ArrayFire, please follow the terms established in
 [the license](LICENSE). If you wish to cite ArrayFire in an academic
 publication, please use the following [citation document](.github/CITATION.md).
 
-ArrayFire development is funded by ArrayFire LLC and several third parties,
+ArrayFire development is funded by AccelerEyes LLC and several third parties,
 please see the list of [acknowledgements](ACKNOWLEDGEMENTS.md) for further
 details.
 
@@ -165,8 +176,10 @@ details.
 ## Trademark Policy
 
 The literal mark “ArrayFire” and ArrayFire logos are trademarks of
-AccelerEyes LLC DBA ArrayFire.
+AccelerEyes LLC (dba ArrayFire).
 If you wish to use either of these marks in your own project, please consult
 [ArrayFire's Trademark Policy](http://arrayfire.com/trademark-policy/)
 
 [1]: https://github.com/arrayfire/arrayfire/wiki/Install-ArrayFire-From-Linux-Package-Managers
+
+
