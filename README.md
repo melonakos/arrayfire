@@ -1,8 +1,14 @@
 <a href="http://arrayfire.com/"><img src="http://arrayfire.com/logos/arrayfire_logo_whitebkgnd.png" width="300"></a>
 
 ArrayFire is a general-purpose tensor library that simplifies the process of
-developing software for parallel architectures found in CPUs, GPUs, and 
-other hardware acceleration devices.
+software development for the parallel architectures found in CPUs, GPUs, and 
+other hardware acceleration devices. The library serves users in every technical
+computing market.
+
+The community of ArrayFire developers invites you to build with us if you're
+interested and able to write top performing tensor functions. Together we can fulfill
+[The ArrayFire Mission](<insert URL>) under an excellent Code of Conduct that promotes
+a respectful and friendly building experience.
 
 Several of ArrayFire's benefits include:
 
