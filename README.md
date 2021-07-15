@@ -7,8 +7,8 @@ computing market.
 
 The community of ArrayFire developers invites you to build with us if you're
 interested and able to write top performing tensor functions. Together we can fulfill
-[The ArrayFire Mission](<insert URL>) under an excellent Code of Conduct that promotes
-a respectful and friendly building experience.
+[The ArrayFire Mission](https://github.com/arrayfire/arrayfire/wiki/The-ArrayFire-Mission-Statement)
+under an excellent Code of Conduct that promotes a respectful and friendly building experience.
 
 Several of ArrayFire's benefits include:
 
@@ -42,24 +42,22 @@ major vendors (Intel, AMD, ARM), GPUs from the prominent manufacturers
 (NVIDIA, AMD, and Qualcomm), as well as a variety of other accelerator devices
 on Windows, Mac, and Linux.
 
-## Installation
+# Installation
 
 You can install the ArrayFire library in one of the following ways:
 
-### Package Managers
+## Package Managers
 
 This approach is currently only supported for Ubuntu 18.04 and 20.04. Please
-go through [our GitHub wiki page][1] for the detailed instructions.
+go through [our GitHub wiki page][https://github.com/arrayfire/arrayfire/wiki/Install-ArrayFire-From-Linux-Package-Managers] for the detailed instructions.
 
-#### Official installers
+## Official installers
 
-Execute one of our [official binary installers](https://arrayfire.com/download)
-for Linux, OSX, and Windows platforms.
+Execute one of our [official binary installers](https://arrayfire.com/download) for Linux, OSX, and Windows platforms.
 
-#### Build from source
+## Build from source
 
-Build from source by following instructions on our
-[wiki](https://github.com/arrayfire/arrayfire/wiki).
+Build from source by following instructions on our [wiki](https://github.com/arrayfire/arrayfire/wiki).
 
 ## Examples
 
@@ -71,7 +69,7 @@ respectively. For more code examples, visit the
 [`examples/`](https://github.com/arrayfire/arrayfire/blob/master/examples/)
 directory.
 
-#### Hello, world!
+### Hello, world!
 
 ```cpp
 array A = randu(5, 3, f32); // Create 5x3 matrix of random floats on the GPU
@@ -88,7 +86,7 @@ af_print(vals);
 af_print(inds);
 ```
 
-#### Conway's Game of Life
+### Conway's Game of Life
 
 Visit the
 [Wikipedia page](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life) for a
@@ -114,7 +112,7 @@ while(!myWindow.close()) {
 <img src="https://github.com/arrayfire/assets/blob/master/gifs/conway.gif" alt="Conway's Game of Life" height="256" width="256">
 </p>
 
-## Documentation
+# Documentation
 
 You can find our complete documentation [here](http://www.arrayfire.com/docs/index.htm).
 
@@ -125,7 +123,7 @@ Quick links:
 * [Examples](http://www.arrayfire.org/docs/examples.htm)
 * [Blog](http://arrayfire.com/blog/)
 
-## Language support
+# Language support
 
 ArrayFire has several official and third-party language API`s:
 
@@ -157,35 +155,32 @@ The following wrappers are being maintained and supported by third parties:
 * [`ArrayFire.jl`](https://github.com/JuliaComputing/ArrayFire.jl)
 * [`ArrayFire-Nim`](https://github.com/bitstormGER/ArrayFire-Nim)
 
-## Contributing
+# Contributing
 
 Contributions of any kind are welcome! Please refer to
-[CONTRIBUTING.md](https://github.com/arrayfire/arrayfire/blob/master/CONTRIBUTING.md)
+[the wiki](https://github.com/arrayfire/arrayfire/wiki)
 to learn more about how you can get involved with ArrayFire.
 
-## Citations and Acknowledgements
+# Citations and Acknowledgements
 
 If you redistribute ArrayFire, please follow the terms established in
 [the license](LICENSE). If you wish to cite ArrayFire in an academic
 publication, please use the following [citation document](.github/CITATION.md).
 
 ArrayFire development is funded by AccelerEyes LLC and several third parties,
-please see the list of [acknowledgements](ACKNOWLEDGEMENTS.md) for further
-details.
+please see the list of [acknowledgements](ACKNOWLEDGEMENTS.md) for an expression of our gratitude.
 
-## Support and Contact Info
+# Support and Contact Info
 
 * [Slack Chat](https://join.slack.com/t/arrayfire-org/shared_invite/MjI4MjIzMDMzMTczLTE1MDI5ODg4NzYtN2QwNGE3ODA5OQ)
 * [Google Groups](https://groups.google.com/forum/#!forum/arrayfire-users)
-* ArrayFire Services:  [Consulting](http://arrayfire.com/consulting/)  |  [Support](http://arrayfire.com/support/)   |  [Training](http://arrayfire.com/training/)
+* ArrayFire Services:  [Consulting](http://arrayfire.com/consulting)  |  [Support](http://arrayfire.com/download)   |  [Training](http://arrayfire.com/training)
 
-## Trademark Policy
+# Trademark Policy
 
 The literal mark “ArrayFire” and ArrayFire logos are trademarks of
 AccelerEyes LLC (dba ArrayFire).
 If you wish to use either of these marks in your own project, please consult
 [ArrayFire's Trademark Policy](http://arrayfire.com/trademark-policy/)
-
-[1]: https://github.com/arrayfire/arrayfire/wiki/Install-ArrayFire-From-Linux-Package-Managers
 
 
