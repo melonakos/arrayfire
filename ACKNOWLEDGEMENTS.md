@@ -12,7 +12,7 @@ circumstances, the specific phrasing of the text is mandated by the grant
 provider. Thus these acknowledgements must remain intact without modification.
 -->
 
-### Grants
+## Grants
 
 This material is based upon work supported by the DARPA SBIR Program Office
 under Contract Numbers W31P4Q-14-C-0012 ("Real-time Characterization of Variable-rate Streaming Data," Phase I),
