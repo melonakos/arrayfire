@@ -50,7 +50,7 @@ You can install the ArrayFire library in one of the following ways:
 ## Package Managers
 
 This approach is currently only supported for Ubuntu 18.04 and 20.04. Please
-go through [our GitHub wiki page][https://github.com/arrayfire/arrayfire/wiki/Install-ArrayFire-From-Linux-Package-Managers] for the detailed instructions.
+go through [our GitHub wiki page](https://github.com/arrayfire/arrayfire/wiki/Install-ArrayFire-From-Linux-Package-Managers) for the detailed instructions.
 
 ## Official installers
 
