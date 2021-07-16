@@ -8,7 +8,8 @@ computing market.
 The community of ArrayFire developers invites you to build with us if you're
 interested and able to write top performing tensor functions. Together we can fulfill
 [The ArrayFire Mission](https://github.com/arrayfire/arrayfire/wiki/The-ArrayFire-Mission-Statement)
-under an excellent Code of Conduct that promotes a respectful and friendly building experience.
+under an excellent [Code of Conduct](https://github.com/arrayfire/arrayfire/wiki/Code-Of-Conduct)
+that promotes a respectful and friendly building experience.
 
 Several of ArrayFire's benefits include:
 
